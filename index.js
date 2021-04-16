@@ -213,13 +213,13 @@ console.log(artists[0], [1]);
 
 //(2) Bio of the third artist (2nd index) in the array 
 
-console.log(artists[2], [5])
+console.log(artists[2], [5]);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
-
+artists[7[1[2]]] = 'Gogh';
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
@@ -229,8 +229,12 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+function getArtistByIndex(array, num) {
+  for(i = 0, i < array.length, i++){
+    if(array[i] === num){
+      return `the artist at index ${array[i]} is ${num}`;
+    }
+  }
 }  
 
 
