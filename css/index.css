@@ -152,6 +152,10 @@ button:hover{
         font-size:3.5rem;
     }
 
+    .title-container hr{
+        width:100%;
+    }
+
     .title-container div{
         width:100%;
     }
@@ -162,11 +166,21 @@ button:hover{
         align-items:center;
     }
 
+    .artists-container a{
+        font-size:1.3rem;
+    }
+
     .artist{
-        width:50%;
+        width:70%;
     }
 
     .artist .bio{
-        font-size:1rem;
+        font-size:0.9rem;
+        line-height:1rem;
+    }
+
+    .artist img{
+        width:65%;
+        height:30%;
     }
 }
